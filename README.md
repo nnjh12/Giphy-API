@@ -27,5 +27,5 @@
 
 ## Small Tips
 * There are many buttons with different roles, so use ID or Class name for each button's On click event. 
-* Bootstrap card with class card-coloums `<div class="card-columns">` make each card stacks with out space.
+* Bootstrap card `<div class="card-columns">` make each card stacks without space.
   (Cards can be organized into Masonry-like columns. Cards are ordered from top to bottom and left to right.)
