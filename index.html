@@ -13,25 +13,53 @@
 </head>
 
 <body>
-    <h1>Your favorite movie character</h1>
-    <div id="instruction">
-        <p>Click each character button, then you will see 10 random images of the character.</p>
-        <p>Click the image to animate it!</p>
-        <p>Click again to stop it.</p>
-        <p>You can add your favorite character if you want!</p>
-    </div>
+    <nav class="navbar text-light bg-dark mb-3">
+        <span class="navbar-brand mb-0 h1">
+            <h2>Your favorite movie character</h2>
+        </span>
+    </nav>
+    <div class="container">
 
+        <div>
 
-    <form class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text">Type your favorite character here!</span>
+            <div class="card text-center mb-3">
+
+                <div class="card-header">
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    How to play!
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Click each character button, then you will see 10 random images of the
+                        character.
+                    </p>
+                    <p class="card-text">Click the image to animate it! Click again to stop it.</p>
+                    <p class="card-text">You can add your favorite character if you want!</p>
+                </div>
+            </div>
         </div>
-        <input id="user-type" type="text" aria-label="Last name" class="form-control">
-        <input id="add-button" type="submit" value="Let's add!">
-    </form>
 
-    <div id="button-container"></div>
-    <div id="image-container"></div>
+
+        <div class="card text-center mb-3">
+            <div class="card-header">
+                <form class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text text-dark">Type your favorite character here!</span>
+                    </div>
+                    <input id="user-type" type="text" aria-label="Last name" class="form-control">
+                    <input id="add-button" type="submit" value="Let's add!">
+                </form>
+            </div>
+            <div class="card-body">
+
+                <div id="button-container"></div>
+            </div>
+        </div>
+
+
+        <div class="card-columns" id="image-container"></div>
+    </div>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
