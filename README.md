@@ -8,7 +8,6 @@
     * `event.preventDefault()` to prevent Default behavior of `<input type=submit>` which is refreshing the page.
     * When user click submit button, empty what user typed. `.empty()` is not working. Use `.val("")`.
 1. On click event 2. **Click character button** (Call the images from Giphy API with AJAX Call when user click character buttons.)
-    * Empty container first
     * Get the info of what user clicked: `$(this).attr("button-value")`
     * Create the URL including the info of what user clicked.
     * Log the response to see JSON object in my console to pick the needed key.
