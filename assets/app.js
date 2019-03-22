@@ -59,7 +59,7 @@ $(document).on("click", ".character-button", function () {
     console.log(userClicked)
 
     // make the giphy API link with word that user clicked
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + userClicked + "&api_key=qPTtrLiqDgaiJctHqDQybl9Y5KcImg1w&limit=10"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + userClicked + "&api_key=qPTtrLiqDgaiJctHqDQybl9Y5KcImg1w&limit=10"
     console.log(queryURL)
 
     $.ajax({
