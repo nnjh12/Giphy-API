@@ -1,5 +1,7 @@
 # Week 06 Homework. **Giphy AIP**
-## What I learned in each process
+## https://nnjh12.github.io/Giphy-API/
+
+### Technical approach in each process
 1. Create buttons with for loops
     * Empty container first. If not, the buttons will be duplicated.
     * Give the button-value attributes, to use it later when each button is clicked.
