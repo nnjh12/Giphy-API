@@ -1,4 +1,4 @@
-# Week 06 Homework. **Giphy AIP**
+# Giphy AIP
 ## https://nnjh12.github.io/Giphy-API/
 
 ### Technical approach in each process
