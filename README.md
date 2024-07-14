@@ -1,7 +1,16 @@
 # Giphy AIP
-## https://nnjh12.github.io/Giphy-API/
+Developed a web-app using HTML, JavaScript, and CSS.
 
-### Technical approach in each process
+## Rules
+- Click each character button, then you will see 10 random images of the character.
+- Click the image to animate it! Click again to stop it.
+- You can add your favorite character if you want!
+
+## Play now!
+[Go to the app](https://nnjh12.github.io/Giphy-API/)
+![preview](./assets/preview.png)
+
+## Technical approach in each process
 1. Create buttons with for loops
     * Empty container first. If not, the buttons will be duplicated.
     * Give the button-value attributes, to use it later when each button is clicked.
@@ -25,8 +34,6 @@
    $('.close').on('click',function() {
     $(this).closest('.card').fadeOut()})
     ```
-
-
 ## Small Tips
 * There are many buttons with different roles, so use ID or Class name for each button's On click event. 
 * Bootstrap card `<div class="card-columns">` make each card stacks without space.
