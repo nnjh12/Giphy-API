@@ -6,7 +6,7 @@ Developed a web-app using HTML, JavaScript, and CSS.
 - Click the image to animate it! Click again to stop it.
 - You can add your favorite character if you want!
 
-## Play now!
+## Try it now!
 [Go to the app](https://nnjh12.github.io/Giphy-API/)
 ![preview](./assets/preview.png)
 
