@@ -7,7 +7,8 @@ Developed a web-app using HTML, JavaScript, and CSS.
 - You can add your favorite character if you want!
 
 ## Try it now!
-[Go to the app](https://nnjh12.github.io/Giphy-API/)
+[Go to the app](https://nnjh12.github.io/Giphy-API/)</br>
+</br>
 ![preview](./assets/preview.png)
 
 ## Technical approach in each process
