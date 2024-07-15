@@ -9,7 +9,7 @@ Developed a web-app using HTML, JavaScript, and CSS.
 ## Try it now!
 [Go to the app](https://nnjh12.github.io/Giphy-API/)</br>
 </br>
-![preview](./assets/preview.png)
+[![preview](./assets/preview.png)](https://nnjh12.github.io/Giphy-API/)
 
 ## Technical approach in each process
 1. Create buttons with for loops
