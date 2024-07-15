@@ -6,11 +6,6 @@ Developed a web-app using HTML, JavaScript, and CSS.
 - Click the image to animate it! Click again to stop it.
 - You can add your favorite character if you want!
 
-## Try it now!
-[Go to the app](https://nnjh12.github.io/Giphy-API/)</br>
-</br>
-[![preview](./assets/preview.png)](https://nnjh12.github.io/Giphy-API/)
-
 ## Technical approach in each process
 1. Create buttons with for loops
     * Empty container first. If not, the buttons will be duplicated.
@@ -39,3 +34,8 @@ Developed a web-app using HTML, JavaScript, and CSS.
 * There are many buttons with different roles, so use ID or Class name for each button's On click event. 
 * Bootstrap card `<div class="card-columns">` make each card stacks without space.
   (Cards can be organized into Masonry-like columns. Cards are ordered from top to bottom and left to right.)
+
+## Try it now!
+[Go to the app](https://nnjh12.github.io/Giphy-API/)</br>
+</br>
+[![preview](./assets/preview.png)](https://nnjh12.github.io/Giphy-API/)
